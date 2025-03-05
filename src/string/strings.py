@@ -112,8 +112,8 @@ class Strings:
             bool: True si la cadena representa un número entero, False en caso contrario
         """
         pass
-    
-    def cifrar_cesar(self, texto, desplazamiento):
+
+    #def cifrar_cesar(self, texto, desplazamiento):
         """
         Aplica el cifrado César a una cadena de texto.
         
@@ -126,7 +126,7 @@ class Strings:
         """
         pass
     
-    def descifrar_cesar(self, texto, desplazamiento):
+   #def descifrar_cesar(self, texto, desplazamiento):
         """
         Descifra una cadena cifrada con el método César.
         
@@ -139,7 +139,7 @@ class Strings:
         """
         pass
     
-    def encontrar_subcadena(self, texto, subcadena):
+    #def encontrar_subcadena(self, texto, subcadena):
         """
         Encuentra todas las posiciones de una subcadena en un texto sin usar find() o index().
         
