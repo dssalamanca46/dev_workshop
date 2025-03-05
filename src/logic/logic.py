@@ -14,7 +14,7 @@ class Logica:
         Returns:
             bool: Resultado de a AND b
         """
-        if(a == True and b==True):
+        if(a == True and b == True):
             return True
         else:
             return False
@@ -31,7 +31,7 @@ class Logica:
         Returns:
             bool: Resultado de a OR b
         """
-        if (a==False and b==False):
+        if (a == False and b == False):
             return False
         else:
             return True
@@ -47,7 +47,7 @@ class Logica:
         Returns:
             bool: Resultado de NOT a
         """
-        if (a==True):
+        if (a == True):
             return False
         else:
             return True
@@ -64,7 +64,7 @@ class Logica:
         Returns:
             bool: Resultado de a XOR b
         """
-        if (a==b):
+        if (a == b):
             return False
         else:
             return True
@@ -81,7 +81,7 @@ class Logica:
         Returns:
             bool: Resultado de a NAND b
         """
-        if(a==True and b==True):
+        if(a == True and b == True):
             return False
         else:
             return True
@@ -98,7 +98,7 @@ class Logica:
         Returns:
             bool: Resultado de a NOR b
         """
-        if(a==False and b==False):
+        if(a == False and b == False):
             return True
         else:
             return False
@@ -115,7 +115,7 @@ class Logica:
         Returns:
             bool: Resultado de a XNOR b
         """
-        if(a==b):
+        if(a == b):
             return True
         else:
             return False
@@ -132,7 +132,7 @@ class Logica:
         Returns:
             bool: Resultado de la implicación
         """
-        if(a==True and b==False):
+        if(a == True and b == False):
             return False
         else:
             return True
@@ -149,7 +149,7 @@ class Logica:
         Returns:
             bool: Resultado de la bi-implicación
         """
-        if(a==b):
+        if(a == b):
             return True
         else:
             return False
