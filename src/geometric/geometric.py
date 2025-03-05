@@ -41,7 +41,11 @@ class Geometria:
         Returns:
             float: Área del círculo
         """
-        return 3.1416*(radio^2)
+        math.pi
+        pow = (radio,2)
+        res = math.pi * (pow)
+        res = round(res,2)
+        return res
     
     def perimetro_circulo(self, radio):
         """
@@ -190,7 +194,8 @@ class Geometria:
         Returns:
             float: Volumen del cubo
         """
-        return lado^3
+        
+        return math.pow(lado,3)
     
     def area_superficie_cubo(self, lado):
         """
@@ -202,7 +207,8 @@ class Geometria:
         Returns:
             float: Área de la superficie del cubo
         """
-        return 6*lado^2
+        pow = math.pow(lado,2)
+        return 6*pow
     
     def volumen_esfera(self, radio):
         """
@@ -214,6 +220,7 @@ class Geometria:
         Returns:
             float: Volumen de la esfera
         """
+        #Revisar
         return (4*3.1416*(radio^3))/3
     
     def area_superficie_esfera(self, radio):
